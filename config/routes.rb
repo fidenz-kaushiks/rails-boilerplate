@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
+
+  get 'welcome/index'
+
   devise_for :users
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  as :user do
-    get     'login',  to: 'devise/sessions#new'
-    delete  'logout', to: 'devise/sessions#destroy'
-  end
 end
