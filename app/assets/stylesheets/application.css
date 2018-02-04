@@ -1,1 +1,10 @@
 @import 'w3';
+@import 'google_icon';
+
+.material-icons {
+  /*vertical-align: -20%;*/
+}
+
+.search-go{
+	float: right;
+}

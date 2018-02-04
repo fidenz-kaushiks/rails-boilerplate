@@ -62,3 +62,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'activeadmin', tag: 'v1.2.1'
 gem 'devise'
+
+# layout
+gem "haml-rails", "~> 1.0"
